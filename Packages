@@ -1,8 +1,35 @@
 Package: com.ld.hidejb
 Version: 1.1.2-test
+Architecture: iphoneos-arm64
+Maintainer: hacker
+Installed-Size: 6456
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.libsandy
+Recommends: mobilesubstrate, preferenceloader, com.hacker.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy,
+ me.jjolano.shadow,me.jjolano.fmwk.hookkit,me.jjolano.hkmodule.dobby,
+ me.jjolano.hkmodule.fishhook,me.jjolano.hkmodule.ellekit,me.jjolano.hkmodule.libhooker,
+ me.jjolano.hkmodule.substitute,me.jjolano.hkmodule.substrate,me.jjolano.fmwk.modulous,
+ me.jjolano.fmwk.rootbridge,com.ld.injectionpatch,com.ld.injectionclasses,com.ld.hidesubstrate,
+ com.ps.injectionfoundation,com.ld.ldtools
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/hidejb_rootless.deb
+Size: 648372
+MD5sum: 6c4cf9ab70ce9ed90b198dc812878889
+SHA1: 64dae9f10be3f4097c2be7520625387f2eb4ed7d
+SHA256: 153b161ffb8e04e207632276094819025b0ca0a32d7fa691ea0c9cef12e970b0
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: hacker
+Name: HideJb
+
+Package: com.ld.hidejb
+Version: 1.1.2-test
 Architecture: iphoneos-arm
 Maintainer: hacker
-Installed-Size: 6264
+Installed-Size: 6584
 Pre-Depends: dpkg
 Depends: firmware (>= 8.0), com.opa334.libsandy
 Recommends: mobilesubstrate, preferenceloader, com.hacker.hkmodule.fishhook
@@ -16,10 +43,10 @@ Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy,
 Replaces: me.jjolano.shadow.beta
 Provides: me.jjolano.shadow.beta
 Filename: ./debs/hidejb_rootfull.deb
-Size: 556322
-MD5sum: b382f272eda008ea3f88c67ef5ba7cec
-SHA1: c710d64a8fbd462dc13208037738885cdfe0d71b
-SHA256: 64a642b85b64559345c2acf5969cc1d9c6d6fba120cd71a6f33b19f9ac1c49fa
+Size: 672478
+MD5sum: 2d9c68cecbaf20d665f0fcebff8b1a27
+SHA1: 5c89e3fc3110cc0e99aabb2f5b67d5b0bb40615c
+SHA256: 589ec58b10b9f2335e3240bac3be915f26481714fac3a8ffc3d705a77ebae7c3
 Section: System
 Description: A modern jailbreak detection bypass.
 Author: hacker
