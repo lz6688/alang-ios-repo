@@ -1,0 +1,27 @@
+Package: com.ld.hidejb
+Version: 1.1.2-test
+Architecture: iphoneos-arm
+Maintainer: hacker
+Installed-Size: 6264
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.libsandy
+Recommends: mobilesubstrate, preferenceloader, com.hacker.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta, me.jjolano.shadow.legacy,
+ me.jjolano.shadow,me.jjolano.fmwk.hookkit,me.jjolano.hkmodule.dobby,
+ me.jjolano.hkmodule.fishhook,me.jjolano.hkmodule.ellekit,me.jjolano.hkmodule.libhooker,
+ me.jjolano.hkmodule.substitute,me.jjolano.hkmodule.substrate,me.jjolano.fmwk.modulous,
+ me.jjolano.fmwk.rootbridge,com.ld.injectionpatch,com.ld.injectionclasses,com.ld.hidesubstrate,
+ com.ps.injectionfoundation,com.ld.ldtools
+Replaces: me.jjolano.shadow.beta
+Provides: me.jjolano.shadow.beta
+Filename: ./debs/hidejb_rootfull.deb
+Size: 556322
+MD5sum: b382f272eda008ea3f88c67ef5ba7cec
+SHA1: c710d64a8fbd462dc13208037738885cdfe0d71b
+SHA256: 64a642b85b64559345c2acf5969cc1d9c6d6fba120cd71a6f33b19f9ac1c49fa
+Section: System
+Description: A modern jailbreak detection bypass.
+Author: hacker
+Name: HideJb
+
